@@ -1,0 +1,15 @@
+{
+  "name": "landing_bouncy",
+  "version": "1.0.0",
+  "description": "Bouncy website",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC"
+}
