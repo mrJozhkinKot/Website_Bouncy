@@ -418,6 +418,7 @@
       </section>
       <section id="form-submit">
         <div class="container py-3">
+            <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
           <div class="text-fields">
 
             <input type=text name="name" class="text-input input-name" placeholder="Your Name">
@@ -427,9 +428,13 @@
             <input type=text name="subject" class="text-input input-subject" placeholder="Subject">
 
             <textarea name="message" class="text-input input-message"></textarea>
-
-          </div>
+                      </div>
+                      <div class="my-2">
+                          <div data-netlify-recaptcha="true"></div>
+                      </div>
           <input type="submit" value="submit now" class="input-btn">
+
+          </form>
         </div>
       </section>
 
