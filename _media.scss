@@ -1,0 +1,109 @@
+
+@media (max-width: 852px) {
+    #portfolio .portfolio-images {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    #quote .quote-img {
+      top: -20px;
+      img {
+        width: 90%;
+      }
+    }
+    #price .cards-price {
+      max-width: 50%;
+      margin: 0 auto;
+      .card-price {
+        &:nth-child(1) {
+          order: 1;
+        }
+        &:nth-child(3) {
+          order: 2;
+        }
+        &:nth-child(2) {
+          margin-top: 2rem;
+          order: 3;
+        }
+      }
+    }
+    #contact .contact-items {
+      flex-direction: column;
+      max-width: 50%;
+      margin: 0 auto;
+    }
+  
+    #feature .feature-foot {
+      justify-content: space-between;
+      padding-right: 2rem;
+    }
+           
+      }
+
+
+  
+  @media (max-width: 580px) {
+    html {
+      font-size: 10px;
+    }
+    #navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #services .services-graphs {
+      display: flex;
+      flex-direction: column;
+      flex: 3;
+      align-items: center;
+      justify-content: center;
+      div {
+        flex: none;
+        padding: 1rem;
+      }
+    }
+    #quote .quote-img {
+      display: none;
+    }
+    #quote .quote-text {
+      text-align: left;
+      width: 100%;
+    }
+  
+    .s-container {
+      max-width: 90%;
+      padding: 1rem;
+    }
+  
+    #portfolio {
+      ul {
+        flex-wrap: wrap;
+      }
+    }
+  
+    #portfolio .portfolio-images {
+      display:block;
+      
+        }
+  
+    .footer-start {
+      padding: 2rem 1rem;
+    }
+  
+    #team .team-info {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #price .cards-price {
+      flex-direction: column;
+  
+      .card-price {
+        margin-top: 2rem;
+      }
+    }
+    #team .team-img {
+      padding-left: 2rem;}
+              
+    }
+
+  
+  

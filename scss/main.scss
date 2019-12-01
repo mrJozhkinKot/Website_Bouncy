@@ -581,39 +581,14 @@ footer {
 }
 
 @media (max-width: 852px) {
-  #portfolio .portfolio-images {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  #quote .quote-img {
-    top: -20px;
-    img {
-      width: 90%;
-    }
-  }
-  #price .cards-price {
-    max-width: 50%;
-    margin: 0 auto;
-    .card-price {
-      &:nth-child(1) {
-        order: 1;
-      }
-      &:nth-child(3) {
-        order: 2;
-      }
-      &:nth-child(2) {
-        margin-top: 2rem;
-        order: 3;
-      }
-    }
-  }
-  #contact .contact-items {
-    flex-direction: column;
-    max-width: 50%;
-    margin: 0 auto;
-  }
+  #form-submit {
+       .text-fields {
+        grid-template-areas:
+        "name"
+        "email"
+        "subject"
+        "message ";
+       }
+}
 
-  #feature .feature-foot {
-    justify-content: space-between;
-    padding-right: 2rem;
-  }
 }
